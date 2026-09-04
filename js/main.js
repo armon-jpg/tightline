@@ -62,6 +62,12 @@
       });
     }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
     rv.forEach((el) => io.observe(el));
+    // safety net: if the observer hasn't fired for above-the-fold content, reveal it anyway
+    setTimeout(() => {
+      rv.forEach((el) => {
+        if (!el.classList.contains('in') && el.getBoundingClientRect().top < window.innerHeight) el.classList.add('in');
+      });
+    }, 1500);
   }
 
   /* ------------------------------------------------------
