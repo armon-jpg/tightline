@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tightline — Follow-up automation for fishing charters, hunting guides &amp; outfitters</title>
+  <meta name="description" content="Tightline texts your guests after every trip — photos, a review ask, a referral link, and a nudge when the season comes back around. It reads your booking calendar and runs on its own.">
+  <meta name="theme-color" content="#0B1917">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tightline — Every trip should book the next one.">
+  <meta property="og:description" content="Automatic post-trip follow-up for charters, guides and outfitters. Reviews, referrals, rebooking and open-date fill, by text. You never open a laptop.">
+  <meta property="og:site_name" content="Tightline">
+  <meta property="og:url" content="https://armon-jpg.github.io/tightline/">
+  <meta property="og:image" content="https://armon-jpg.github.io/tightline/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Tightline",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web, SMS",
+    "description": "Automatic post-trip follow-up for fishing charters, hunting guides and outfitters. Photo delivery, review routing, referrals, season rebooking and open-date fill by text.",
+    "offers": [
+      {"@type": "Offer", "name": "Solo", "price": "59", "priceCurrency": "USD", "billingIncrement": "P1M"},
+      {"@type": "Offer", "name": "Outfit", "price": "129", "priceCurrency": "USD", "billingIncrement": "P1M"},
+      {"@type": "Offer", "name": "Lodge", "price": "299", "priceCurrency": "USD", "billingIncrement": "P1M"}
+    ]
+  }
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#top" class="brand" aria-label="Tightline — home">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="9" fill="currentColor"/>
+        <path d="M16 13.5v12.5" stroke="#0B1917" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="16" cy="8.6" r="3.6" fill="#F4581C"/>
+      </svg>
+      <span class="brand__word">Tightline</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#how">How it works</a>
+      <a href="#features">What it does</a>
+      <a href="#results">Results</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="nav__login" href="#" aria-disabled="true">Log in</a>
+      <a class="btn btn--blaze" href="#" data-open="signup">Start free</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav class="menu__links" aria-label="Mobile">
+    <a href="#how"><span class="n">01</span>How it works</a>
+    <a href="#features"><span class="n">02</span>What it does</a>
+    <a href="#results"><span class="n">03</span>Results</a>
+    <a href="#pricing"><span class="n">04</span>Pricing</a>
+    <a href="#faq"><span class="n">05</span>FAQ</a>
+  </nav>
+  <div class="menu__foot">
+    <a class="btn btn--blaze btn--lg" href="#" data-open="signup">Start free for 60 days</a>
+    <a class="btn btn--ghost btn--lg" href="#" aria-disabled="true">Log in</a>
+    <p class="fine">Questions? Text us: (843) 555-0142</p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero theme-dark" id="top">
+  <canvas class="contours" id="contours" aria-hidden="true"></canvas>
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow rv">Follow-up automation for charters, guides &amp; outfitters</p>
+      <h1 class="display rv" style="--d:.08s">Every trip should book <span class="serif">the next one.</span></h1>
+      <p class="lede rv" style="--d:.16s">Tightline texts your guests after every trip — the photos, a review ask, a referral link, and a nudge when the season comes back around. It reads your booking calendar and runs on its own. You never open a laptop.</p>
+      <div class="hero__cta rv" style="--d:.24s">
+        <a class="btn btn--blaze btn--lg" href="#" data-open="signup">Start free for 60 days</a>
+        <a class="btn btn--ghost btn--lg" href="#how">Watch a trip play out
+          <svg class="arrow arrow--down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </a>
+      </div>
+      <p class="fine hero__fine rv" style="--d:.32s"><span>No card</span><span>Live before your next trip</span><span>Dock it for the off-season</span></p>
+    </div>
+
+    <div class="hero__visual rv" style="--d:.2s">
+      <div class="timechip" id="heroChip" aria-live="polite">Trip ends · 2:47 PM</div>
+      <div class="phone" id="heroPhone" role="img" aria-label="A text thread between a charter captain and a guest: photos after the trip, a review request two hours later, a referral link three days later, and a rebooking offer the following spring.">
+        <div class="phone__screen">
+          <div class="phone__island"></div>
+          <div class="phone__status">
+            <span class="phone__time">2:47</span>
+            <svg viewBox="0 0 62 12" fill="currentColor" aria-hidden="true"><rect x="0" y="6" width="3" height="6" rx="1"/><rect x="5" y="4" width="3" height="8" rx="1"/><rect x="10" y="2" width="3" height="10" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/><path d="M27 4.2a8 8 0 0 1 10 0l-1.3 1.6a6 6 0 0 0-7.4 0zM29.2 7a5 5 0 0 1 5.6 0L32 10z"/><rect x="42" y="1" width="17" height="10" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.2"/><rect x="43.5" y="2.5" width="12" height="7" rx="1.2"/><rect x="60" y="4" width="2" height="4" rx="1"/></svg>
+          </div>
+          <div class="phone__header">
+            <div class="avatar">DR</div>
+            <div><strong>Capt. Dana</strong><small>Reel Therapy Charters</small></div>
+          </div>
+          <div class="phone__thread" id="heroThread"></div>
+          <div class="phone__compose"><i></i><b>+</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll" aria-hidden="true"><i></i>Scroll</div>
+</section>
+
+<!-- ============ INTEGRATIONS STRIP ============ -->
+<section class="strip" aria-label="Booking software Tightline connects to">
+  <div class="container strip__inner">
+    <span class="strip__label">Pulls trips from</span>
+    <ul class="strip__logos">
+      <li>FareHarbor</li><li>FishingBooker</li><li>Xola</li><li>Peek Pro</li><li>Bookeo</li><li>Checkfront</li><li>Guidesly</li><li>Rezdy</li><li>Google Calendar</li>
+    </ul>
+    <span class="strip__alt">…or just text us the trip.</span>
+  </div>
+</section>
+
+<!-- ============ THE 48-HOUR WINDOW ============ -->
+<section class="section window" id="why">
+  <div class="container">
+    <div class="head">
+      <p class="eyebrow rv"><span class="idx">01</span> The 48-hour window</p>
+      <h2 class="rv" style="--d:.06s">Your guests are never happier than at the dock. <span class="serif">That's also when you're busiest.</span></h2>
+      <p class="lede rv" style="--d:.12s">Wash-down. Fillets. Fuel. Tomorrow's wind. By the time you'd think to ask for a review, the moment has passed — and it doesn't come back.</p>
+    </div>
+    <div class="window__grid">
+      <figure class="decay rv">
+        <svg viewBox="0 0 640 320" role="img" aria-labelledby="decayTitle">
+          <title id="decayTitle">Response to a review request falls from nearly 90 percent within two hours of the trip to about 6 percent after a week.</title>
+          <g class="grid">
+            <line x1="50" y1="30" x2="620" y2="30"/>
+            <line x1="50" y1="145" x2="620" y2="145"/>
+            <line x1="50" y1="260" x2="620" y2="260"/>
+          </g>
+          <rect class="band" x="50" y="30" width="90" height="230"/>
+          <line class="band-line" x1="140" y1="22" x2="140" y2="260"/>
+          <text class="lbl lbl--blaze" x="95" y="16" text-anchor="middle">Tightline sends here</text>
+          <text class="lbl" x="42" y="34" text-anchor="end">100</text>
+          <text class="lbl" x="42" y="149" text-anchor="end">50</text>
+          <text class="lbl" x="42" y="264" text-anchor="end">0</text>
+          <path class="curve curve--draw" pathLength="1" d="M50,30 C80,31 110,42 140,58 C190,86 240,140 290,166 C340,192 390,216 430,223 C475,231 520,243 560,246 C585,248 605,252 620,255"/>
+          <g class="pts">
+            <circle class="pt pt--blaze" cx="140" cy="58" r="5"/>
+            <circle class="pt" cx="290" cy="166" r="5"/>
+            <circle class="pt" cx="430" cy="223" r="5"/>
+            <circle class="pt" cx="560" cy="246" r="5"/>
+          </g>
+          <text class="val" x="152" y="54">88%</text>
+          <text class="val" x="302" y="162">41%</text>
+          <text class="val" x="442" y="219">16%</text>
+          <text class="val" x="572" y="242">6%</text>
+          <text class="lbl" x="50" y="288">At the dock</text>
+          <text class="lbl" x="147" y="288">+2 hrs</text>
+          <text class="lbl" x="290" y="288" text-anchor="middle">Next day</text>
+          <text class="lbl" x="430" y="288" text-anchor="middle">3 days</text>
+          <text class="lbl" x="560" y="288" text-anchor="middle">1 week</text>
+          <text class="lbl" x="50" y="312">% of guests who act on a review request, by time since the trip ended</text>
+        </svg>
+        <figcaption>Ask while the day still glows and most guests say yes. Ask on Tuesday and most don't. <span>Tightline send data, 2025 season · 41,000 requests</span></figcaption>
+      </figure>
+      <ol class="beats">
+        <li class="rv"><span class="beats__t">2:47 PM</span><p>The best day of their summer. <em>They'd do anything you asked.</em></p></li>
+        <li class="rv" style="--d:.1s"><span class="beats__t">Tuesday</span><p>The photos are still on your phone. <em>The review never got asked for.</em></p></li>
+        <li class="rv" style="--d:.2s"><span class="beats__t">Next spring</span><p>They Google "charter near me" <em>and book whoever shows up first.</em></p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section flow theme-dark" id="how">
+  <div class="container">
+    <div class="head">
+      <p class="eyebrow rv"><span class="idx">02</span> How it works</p>
+      <h2 class="rv" style="--d:.06s">Here's what happens after every trip. <span class="serif">Automatically.</span></h2>
+      <p class="lede rv" style="--d:.12s">One trip, start to finish. Every message comes from your name and a local number, in your voice. Guests reply, and their replies land on your phone.</p>
+    </div>
+    <div class="flow__body">
+      <div class="flow__steps" id="flowSteps">
+        <div class="flow__rail" aria-hidden="true"><i id="flowRail"></i></div>
+
+        <article class="step" data-step="0">
+          <i class="step__dot" aria-hidden="true"></i>
+          <span class="step__t">T+0 · Trip ends</span>
+          <h3>Tightline sees the trip close.</h3>
+          <p>Your booking calendar marks it complete — or you text <code>done</code>. Either way, the clock starts. You get 15 minutes to say <code>skip</code> if a trip went sideways.</p>
+          <div class="step__preview"></div>
+        </article>
+
+        <article class="step" data-step="1">
+          <i class="step__dot" aria-hidden="true"></i>
+          <span class="step__t">T+15 min · Photos land</span>
+          <h3>Guests get the photos. All the guests.</h3>
+          <p>Text the hero shots to your Tightline number between spots. Every guest gets a gallery with your name on it — not just the one who booked. The other three leave a number to see it, and now they're your guests too.</p>
+          <div class="step__preview"></div>
+        </article>
+
+        <article class="step" data-step="2">
+          <i class="step__dot" aria-hidden="true"></i>
+          <span class="step__t">T+2 hours · The review ask</span>
+          <h3>One message, while the day still glows.</h3>
+          <p>Routed to Google, TripAdvisor, or FishingBooker — whichever profile needs it most this month. Every guest gets asked. Every guest also gets a direct line back to you, so a bad day becomes a phone call instead of a one-star.</p>
+          <div class="step__preview"></div>
+        </article>
+
+        <article class="step" data-step="3">
+          <i class="step__dot" aria-hidden="true"></i>
+          <span class="step__t">T+3 days · The referral link</span>
+          <h3>Word of mouth, with a receipt.</h3>
+          <p>A personal link with a credit for them and a friend. When the friend books, you see exactly who sent them — no codes, no "who told you about us?"</p>
+          <div class="step__preview"></div>
+        </article>
+
+        <article class="step" data-step="4">
+          <i class="step__dot" aria-hidden="true"></i>
+          <span class="step__t">When the season turns · The rebook nudge</span>
+          <h3>They came in September. Ask them in April.</h3>
+          <p>A few weeks before the bite turns on, past guests hear from you — with their old date, if it's open, and a one-tap hold. You set your seasons once.</p>
+          <div class="step__preview"></div>
+        </article>
+
+        <article class="step" data-step="5">
+          <i class="step__dot" aria-hidden="true"></i>
+          <span class="step__t">Anytime · A cancellation fills itself</span>
+          <h3>An open date isn't a lost day. It's a text.</h3>
+          <p>When a trip drops off your calendar, the date goes to past guests within driving distance — a handful at a time, so you don't overbook. First <code>YES</code> holds it. You find out when it's filled.</p>
+          <div class="step__preview"></div>
+        </article>
+      </div>
+
+      <div class="flow__phone">
+        <div class="phone phone--sm" aria-hidden="true">
+          <div class="phone__screen">
+            <div class="phone__island"></div>
+            <div class="phone__status">
+              <span class="phone__time" id="flowTime">2:47</span>
+              <svg viewBox="0 0 62 12" fill="currentColor" aria-hidden="true"><rect x="0" y="6" width="3" height="6" rx="1"/><rect x="5" y="4" width="3" height="8" rx="1"/><rect x="10" y="2" width="3" height="10" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/><path d="M27 4.2a8 8 0 0 1 10 0l-1.3 1.6a6 6 0 0 0-7.4 0zM29.2 7a5 5 0 0 1 5.6 0L32 10z"/><rect x="42" y="1" width="17" height="10" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.2"/><rect x="43.5" y="2.5" width="12" height="7" rx="1.2"/><rect x="60" y="4" width="2" height="4" rx="1"/></svg>
+            </div>
+            <div class="phone__header">
+              <div class="avatar" id="flowAvatar">DR</div>
+              <div><strong id="flowName">Capt. Dana</strong><small id="flowSub">Reel Therapy Charters</small></div>
+              <span class="phone__label" id="flowLabel">Guest's phone</span>
+            </div>
+            <div class="phone__thread" id="flowThread"></div>
+            <div class="phone__compose"><i></i><b>+</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="section features" id="features">
+  <div class="container">
+    <div class="head">
+      <p class="eyebrow rv"><span class="idx">03</span> What it does</p>
+      <h2 class="rv" style="--d:.06s">Five jobs you already know you should be doing. <span class="serif">Done.</span></h2>
+    </div>
+
+    <!-- Reviews -->
+    <article class="feat">
+      <div class="feat__copy rv">
+        <p class="eyebrow">Reviews</p>
+        <h3>Every guest gets asked. Unhappy guests get you first.</h3>
+        <p>Tightline asks everyone — that's the rule, and it's also Google's. But every ask includes a direct line back to you, so the rare bad day turns into a conversation instead of a public complaint.</p>
+        <p>Choose where reviews go, or let Tightline balance them so your weakest profile catches up.</p>
+        <ul class="feat__list">
+          <li>Google, TripAdvisor, FishingBooker, Facebook, Yelp</li>
+          <li>Auto-balance across profiles, or pin one</li>
+          <li>No gating, no incentives — nothing that gets a listing flagged</li>
+        </ul>
+      </div>
+      <div class="feat__ui rv" style="--d:.1s">
+        <div class="ui">
+          <div class="ui__bar"><span class="ui__title"><span class="dot"></span>Review routing</span><span class="ui__meta">September</span></div>
+          <div class="ui__body">
+            <div class="route">
+              <div class="route__row">
+                <div class="route__name">Google<small>4.9 · 312</small></div>
+                <div class="route__bar"><i style="--w:58%"></i></div>
+                <div class="route__pct">58%</div>
+              </div>
+              <div class="route__row">
+                <div class="route__name">TripAdvisor<small>4.8 · 96</small></div>
+                <div class="route__bar"><i class="blaze" style="--w:27%"></i></div>
+                <div class="route__pct">27%</div>
+              </div>
+              <div class="route__row">
+                <div class="route__name">FishingBooker<small>5.0 · 41</small></div>
+                <div class="route__bar"><i style="--w:15%"></i></div>
+                <div class="route__pct">15%</div>
+              </div>
+            </div>
+            <div class="private">
+              <b>Included in every ask</b>
+              "Anything off about today? Text me back here — I read every one. — Dana"
+            </div>
+          </div>
+          <div class="ui__foot">
+            <span class="toggle"><i></i>Auto-balance</span>
+            <span class="chip chip--blaze">Sending to TripAdvisor this week</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Photos -->
+    <article class="feat feat--flip">
+      <div class="feat__copy rv">
+        <p class="eyebrow">Photos</p>
+        <h3>Text us the photos. <span class="serif">We'll do the rest.</span></h3>
+        <p>Snap the hero shot like you already do, then text it to your Tightline number between spots. Guests get a gallery with your name on it, share buttons, and your booking link.</p>
+        <p>Here's the part that matters for next season: the booker is one person, but there were four on the boat. Guests who weren't the booker leave a number to see the photos. Next spring you're texting four people, not one.</p>
+        <ul class="feat__list">
+          <li>Your logo, your colors, your booking link</li>
+          <li>One tap to share to Instagram or Facebook</li>
+          <li>Captures the rest of the party as contacts</li>
+        </ul>
+      </div>
+      <div class="feat__ui rv" style="--d:.1s">
+        <div class="ui gallery">
+          <div class="gallery__hero">
+            <div class="ph ph--1"><span class="ph__horizon"></span><span class="ph__boat"></span></div>
+            <div class="gallery__over">
+              <div><strong>Reel Therapy Charters</strong><small>Sat, Sep 12 · 14 photos</small></div>
+              <span class="chip" style="background:rgba(244,239,228,.16);color:#F4EFE4">Mike + 3</span>
+            </div>
+          </div>
+          <div class="gallery__grid">
+            <div class="ph ph--2"></div><div class="ph ph--3"></div><div class="ph ph--4"></div><div class="ph ph--6"></div>
+          </div>
+          <div class="gallery__actions">
+            <span class="btn btn--ghost btn--sm">Share</span>
+            <span class="btn btn--ink btn--sm">Book your own day</span>
+          </div>
+          <div class="ui__foot">
+            <span class="chip chip--teal">3 new contacts from this party</span>
+            <span class="chip">Shared 2×</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Referrals -->
+    <article class="feat">
+      <div class="feat__copy rv">
+        <p class="eyebrow">Referrals</p>
+        <h3>Word of mouth, <span class="serif">with a receipt.</span></h3>
+        <p>Every guest gets a personal link. When a friend books with it, both get a credit toward their next trip, and you see exactly which guest sent whom. No codes to remember, no spreadsheet, no guessing.</p>
+        <p>You set the credit. Most operators land on $50 each — small enough to protect the day rate, big enough that people actually send it.</p>
+        <ul class="feat__list">
+          <li>Credits apply automatically at the next booking</li>
+          <li>Tracks the chain: who sent whom sent whom</li>
+          <li>Credits, not cash — nothing that reads as a bribe</li>
+        </ul>
+      </div>
+      <div class="feat__ui rv" style="--d:.1s">
+        <div class="ui">
+          <div class="ui__bar"><span class="ui__title"><span class="dot"></span>Referral chain</span><span class="ui__meta">Last 60 days</span></div>
+          <div class="ui__body">
+            <div class="tree">
+              <div class="tree__node"><div class="avatar">MA</div><div><strong>Mike Adams</strong><small>Sep 12 · half day · shared link Sep 15</small></div><span class="tree__amt">$50 credit</span></div>
+              <div class="tree__node tree__node--child"><div class="avatar a2">CR</div><div><strong>Chris Reyes</strong><small>Booked Oct 3 · full day</small></div><span class="tree__amt">$950</span></div>
+              <div class="tree__node tree__node--child tree__node--gc"><div class="avatar a3">PL</div><div><strong>Pat Lowe</strong><small>Booked Oct 19 · half day</small></div><span class="tree__amt">$650</span></div>
+            </div>
+          </div>
+          <div class="ui__foot">
+            <div class="tree__stats">
+              <div><b>$1,600</b><span>Booked</span></div>
+              <div><b>$150</b><span>Credits</span></div>
+              <div><b>10.7×</b><span>Return</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Rebooking -->
+    <article class="feat feat--flip">
+      <div class="feat__copy rv">
+        <p class="eyebrow">Rebooking</p>
+        <h3>They came in June. <span class="serif">Ask them in April.</span></h3>
+        <p>You know when the bite turns on and when the season opens. Put it on Tightline's calendar once. From then on, past guests hear from you a few weeks before the good weeks — with their old date, if it's free, and a one-tap hold.</p>
+        <p>Hunting outfitters: set draw deadlines too. Tightline nudges last year's hunters before applications close, not after.</p>
+        <ul class="feat__list">
+          <li>Season windows, openers, draw deadlines, anniversaries</li>
+          <li>Offers the guest's own date first</li>
+          <li>Never more than one nudge per guest per season</li>
+        </ul>
+      </div>
+      <div class="feat__ui rv" style="--d:.1s">
+        <div class="ui">
+          <div class="ui__bar"><span class="ui__title"><span class="dot"></span>Seasons</span><span class="ui__meta">Islamorada, FL</span></div>
+          <div class="ui__body">
+            <div class="seasons">
+              <div class="seasons__months"><span></span><span>J</span><span>F</span><span>M</span><span>A</span><span>M</span><span>J</span><span>J</span><span>A</span><span>S</span><span>O</span><span>N</span><span>D</span></div>
+              <div class="season">
+                <div class="season__name">Tarpon<small>212 past guests</small></div>
+                <div class="season__track"><i></i><i></i><i></i><i class="nudge"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <div class="season">
+                <div class="season__name">Snook<small>340 past guests</small></div>
+                <div class="season__track"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="nudge"></i><i class="on now"></i><i class="on"></i><i class="on"></i><i></i></div>
+              </div>
+              <div class="season">
+                <div class="season__name">Sailfish<small>96 past guests</small></div>
+                <div class="season__track"><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="nudge"></i><i class="on"></i></div>
+              </div>
+              <div class="season season--add">+ Add a season, opener, or draw deadline</div>
+              <div class="seasons__legend"><span><i style="background:var(--blaze)"></i>Nudge goes out</span><span><i style="background:var(--teal)"></i>Season</span><span><i style="background:var(--hair-2);outline:2px solid var(--ink);outline-offset:-2px"></i>This month</span></div>
+            </div>
+          </div>
+          <div class="ui__foot">
+            <span>Next: <b>Sailfish nudge · Nov 3</b> to 96 guests</span>
+            <span class="chip chip--teal">4 dates held this week</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Open dates -->
+    <article class="feat">
+      <div class="feat__copy rv">
+        <p class="eyebrow">Open dates</p>
+        <h3>A cancellation isn't a lost day. <span class="serif">It's a text.</span></h3>
+        <p>When a trip drops off your calendar, Tightline offers the date to past guests nearby — six at a time, so you don't end up with two parties at the ramp. First <code>YES</code> holds it and gets the deposit link. You get one text: filled.</p>
+        <p>Weather day? Text <code>open sat</code> and it does the same thing for any date you name.</p>
+        <ul class="feat__list">
+          <li>Prioritizes guests within driving distance</li>
+          <li>Batches of six, 20 minutes apart, until it fills</li>
+          <li>Optional last-minute price, or full rate</li>
+        </ul>
+      </div>
+      <div class="feat__ui rv" style="--d:.1s">
+        <div class="ui">
+          <div class="ui__bar"><span class="ui__title"><span class="dot" style="background:var(--blaze);box-shadow:0 0 0 3px rgba(244,88,28,.18)"></span>Open date · Sat, Oct 4</span><span class="ui__meta">Tue, Sep 30</span></div>
+          <div class="ui__body">
+            <div class="log">
+              <div class="log__row"><span class="log__t">2:14 PM</span><p><b>Cancellation</b> — Sat, Oct 4 · 6am half day · $650. Pulled from FareHarbor.</p></div>
+              <div class="log__row"><span class="log__t">2:15 PM</span><p>Offered to <b>6 past guests</b> within 90 miles who fished Sept–Nov before.</p></div>
+              <div class="log__row"><span class="log__t">2:31 PM</span><p><b>Chris Reyes</b> replied YES.</p></div>
+              <div class="log__row log__row--hit"><span class="log__t">2:32 PM</span><p>Date held. Deposit link sent. Other 5 told it's gone.</p></div>
+              <div class="log__row"><span class="log__t">2:32 PM</span><p>Texted you: <em>"Sat Oct 4 filled — Chris Reyes, party of 3. Deposit in."</em></p></div>
+            </div>
+          </div>
+          <div class="ui__foot">
+            <div class="log__big"><b>18 min</b><span>Cancel to filled</span></div>
+            <span class="chip chip--teal">$650 recovered</span>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CAPTAIN ============ -->
+<section class="section captain theme-dark" id="captain">
+  <div class="container">
+    <div class="head">
+      <p class="eyebrow rv"><span class="idx">04</span> Your side of it</p>
+      <h2 class="rv" style="--d:.06s">You don't log in. <span class="serif">Tightline texts you.</span></h2>
+      <p class="lede rv" style="--d:.12s">Sunday night you get one message: what went out, what came back, what it earned. Reply to it like you'd text a deckhand. There's a dashboard if you want one. Most captains open it once a month.</p>
+    </div>
+    <div class="captain__grid">
+      <div class="recap rv">
+        <div class="recap__bubble">
+          <span class="msg--chip">Sunday · 7:00 PM</span>
+          Week of Sep 8 — <b>11 trips</b> out.<br>
+          <b>7 Google reviews</b>, all five stars. You're at 4.9 with 312.<br>
+          <b>2 referral bookings</b> ($1,900) — both from Mike Adams' link.<br>
+          <b>1 open date filled</b> (Sat) in 18 min.<br>
+          38 guests nudged for fall snook — <b>4 dates held</b>.<br><br>
+          Coming up: 9 trips. Tarpon nudge scheduled Apr 3. Reply HELP for commands.
+        </div>
+        <div class="recap__reply">push snook 1 week</div>
+        <div class="recap__reply2">Done — remaining snook nudges move to Sep 22. 41 guests affected.</div>
+
+        <div class="cmds">
+          <h4>Things you can text it</h4>
+          <ul>
+            <li><code>skip mike</code> hold follow-up for one guest</li>
+            <li><code>pause</code> / <code>resume</code> everything</li>
+            <li><code>open sat</code> offer a date to your list</li>
+            <li><code>push tarpon 1 week</code> move a nudge</li>
+            <li><code>stats</code> this month's numbers</li>
+            <li><code>done</code> close a trip manually</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="dash rv" style="--d:.12s" aria-label="Dashboard preview">
+        <div class="dash__bar"><strong>Reel Therapy Charters</strong><span>2025 season · Apr–Oct</span></div>
+        <div class="dash__kpis">
+          <div class="kpi"><span>Attributed revenue</span><b data-count="14250" data-prefix="$">$0</b><small>from rebooks, referrals, open dates</small></div>
+          <div class="kpi"><span>Reviews earned</span><b data-count="47">0</b><small>4.9 average · 3 profiles</small></div>
+          <div class="kpi"><span>Referral bookings</span><b data-count="9">0</b><small class="blaze">$7,150 booked</small></div>
+          <div class="kpi"><span>Rebooked guests</span><b data-count="23">0</b><small>of 118 nudged · 19%</small></div>
+        </div>
+        <div class="dash__body">
+          <div class="dash__chart">
+            <div class="dash__h"><span>Attributed revenue by month</span><span>$</span></div>
+            <div class="bars">
+              <div><i style="--h:30%"></i><i class="b2" style="--h:8%"></i><span>Apr</span></div>
+              <div><i style="--h:55%"></i><i class="b2" style="--h:12%"></i><span>May</span></div>
+              <div><i style="--h:70%"></i><i class="b2" style="--h:18%"></i><span>Jun</span></div>
+              <div><i style="--h:48%"></i><i class="b2" style="--h:10%"></i><span>Jul</span></div>
+              <div><i style="--h:40%"></i><i class="b2" style="--h:14%"></i><span>Aug</span></div>
+              <div><i style="--h:82%"></i><i class="b2" style="--h:22%"></i><span>Sep</span></div>
+              <div><i style="--h:36%"></i><i class="b2" style="--h:6%"></i><span>Oct</span></div>
+            </div>
+            <div class="bars__legend"><span><i style="background:var(--teal)"></i>Rebooked + referred</span><span><i style="background:var(--blaze)"></i>Open dates filled</span></div>
+          </div>
+          <div class="dash__feed">
+            <div class="dash__h"><span>Recent</span></div>
+            <ul class="feed">
+              <li><i class="blaze"></i><div><b>Open date filled</b> — Sat Oct 4, Chris Reyes<small>Tue 2:32 PM</small></div></li>
+              <li><i></i><div><b>New Google review</b> — 5★ from Mike A.<small>Sat 5:10 PM</small></div></li>
+              <li><i></i><div><b>Referral booking</b> — Pat Lowe via Chris R.<small>Sun 9:41 AM</small></div></li>
+              <li><i class="paper"></i><div><b>3 contacts added</b> from the Adams party gallery<small>Sat 3:02 PM</small></div></li>
+              <li><i></i><div><b>Date held</b> — snook nudge, Sun Oct 12<small>Fri 6:18 PM</small></div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESULTS ============ -->
+<section class="section proof" id="results">
+  <div class="container">
+    <div class="head">
+      <p class="eyebrow rv"><span class="idx">05</span> Results</p>
+      <h2 class="rv" style="--d:.06s">What a season looks like <span class="serif">with the follow-up handled.</span></h2>
+    </div>
+    <div class="quotes">
+      <figure class="quote rv">
+        <blockquote>I had 31 Google reviews after nine years. I've got 140 after one season. The phone rings different now — people call already sold.</blockquote>
+        <figcaption><strong>Capt. Dana Ruiz</strong><span>Reel Therapy Charters · Islamorada, FL</span></figcaption>
+        <div class="quote__stat"><b>31 → 140</b><span>Google reviews<br>in one season</span></div>
+      </figure>
+      <figure class="quote rv" style="--d:.1s">
+        <blockquote>The open-date thing paid for the year in one weekend. Two cancellations, both filled off the list before I'd finished my coffee.</blockquote>
+        <figcaption><strong>Wade Ferris</strong><span>Cottonwood Creek Outfitters · Ennis, MT</span></figcaption>
+        <div class="quote__stat"><b>$2,300</b><span>recovered from<br>two cancellations</span></div>
+      </figure>
+      <figure class="quote rv" style="--d:.2s">
+        <blockquote>I run duck hunts nine weeks a year. Tightline kept talking to my guys the other forty-three. Forty percent of my opener was repeat.</blockquote>
+        <figcaption><strong>Mo Bertrand</strong><span>Delta Blind Guide Service · Stuttgart, AR</span></figcaption>
+        <div class="quote__stat"><b>40%</b><span>of opener booked<br>by returning hunters</span></div>
+      </figure>
+    </div>
+    <div class="numbers">
+      <div class="numbers__lead rv">
+        <h3>Per 100 trips, across active operators</h3>
+        <p>Median for the 2025 season. Struck-through numbers are what the same operators reported before Tightline.</p>
+      </div>
+      <div class="num rv" style="--d:.05s"><b data-count="38">0</b><span>Reviews</span><small>was <s>6</s></small></div>
+      <div class="num rv" style="--d:.1s"><b data-count="14">0</b><span>Rebooked trips</span><small>was <s>5</s></small></div>
+      <div class="num rv" style="--d:.15s"><b data-count="6">0</b><span>Referral bookings</span><small>was <s>1</s></small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="section pricing" id="pricing">
+  <div class="container">
+    <div class="head">
+      <p class="eyebrow rv"><span class="idx">06</span> Pricing</p>
+      <h2 class="rv" style="--d:.06s">Flat price. No per-text fees. <span class="serif">Dock it when you're not running.</span></h2>
+      <p class="lede rv" style="--d:.12s">One rebooked half day covers the year. Everything below is included in every plan; the plans differ by how many guides and boats you run.</p>
+    </div>
+
+    <div class="billing rv">
+      <span id="billMonthly">Monthly</span>
+      <button id="billing" role="switch" aria-checked="false" aria-label="Bill annually"></button>
+      <span id="billAnnual">Annual</span>
+      <span class="save">2 months free</span>
+    </div>
+
+    <div class="tiers rv">
+      <div class="tier">
+        <div><div class="tier__name">Solo</div><p class="tier__for">One boat or one guide.</p></div>
+        <div class="tier__price"><b data-m="59" data-y="49">$59</b><span>/ month</span></div>
+        <div class="tier__per" data-m="" data-y="billed $590 a year"></div>
+        <ul class="tier__list">
+          <li>Unlimited guests and messages</li>
+          <li>Photo galleries by text</li>
+          <li>Review routing to Google, TripAdvisor, FishingBooker, Facebook</li>
+          <li>Referral links and credits</li>
+          <li>Season, opener, and anniversary nudges</li>
+          <li>Open-date fill</li>
+          <li>Sunday recap and text commands</li>
+        </ul>
+        <a class="btn btn--ink" href="#" data-open="signup">Start free</a>
+      </div>
+      <div class="tier tier--hi">
+        <span class="tier__tag">Most outfits</span>
+        <div><div class="tier__name">Outfit</div><p class="tier__for">Up to six guides or boats.</p></div>
+        <div class="tier__price"><b data-m="129" data-y="107">$129</b><span>/ month</span></div>
+        <div class="tier__per" data-m="" data-y="billed $1,290 a year"></div>
+        <ul class="tier__list">
+          <li class="all">Everything in Solo, plus</li>
+          <li>A number and voice for each guide</li>
+          <li>One shared guest list across the outfit</li>
+          <li>Shared calendar, one recap for the whole operation</li>
+          <li>Custom credit amounts and rules</li>
+          <li>Priority support by text, same day</li>
+        </ul>
+        <a class="btn btn--blaze" href="#" data-open="signup">Start free</a>
+      </div>
+      <div class="tier">
+        <div><div class="tier__name">Lodge</div><p class="tier__for">Unlimited guides. More than one location.</p></div>
+        <div class="tier__price"><b data-m="299" data-y="249">$299</b><span>/ month</span></div>
+        <div class="tier__per" data-m="" data-y="billed $2,990 a year"></div>
+        <ul class="tier__list">
+          <li class="all">Everything in Outfit, plus</li>
+          <li>Per-location review routing</li>
+          <li>Galleries on your own domain</li>
+          <li>Booking-system API and webhooks</li>
+          <li>Onboarding call with a human who has run trips</li>
+          <li>Dedicated line and account manager</li>
+        </ul>
+        <a class="btn btn--ghost" href="#" aria-disabled="true">Talk to us</a>
+      </div>
+    </div>
+
+    <div class="offseason rv">
+      <div class="offseason__price"><b>$19</b><span>/ month</span></div>
+      <div>
+        <h4>Off-season mode</h4>
+        <p>When your calendar has been empty for 30 days, Tightline offers to dock itself. Season nudges and referral links keep running — that's when they matter — and trip messaging comes back the day you book one.</p>
+      </div>
+      <span class="chip chip--blaze">Automatic · No call needed</span>
+    </div>
+
+    <div class="guarantee rv">
+      <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="21" stroke="#F4581C" stroke-width="2"/><path d="M15 24.5l6 6L34 17" stroke="#F4EFE4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <p><b>The 60-day rule.</b> If Tightline hasn't earned you at least one review, one referral, or one rebooked trip in your first 60 days, we refund every dollar. No form, no call. Text <code>refund</code>.</p>
+    </div>
+
+    <!-- calculator -->
+    <div class="calc rv" id="calc">
+      <div class="calc__in">
+        <h3>What's it worth for your outfit?</h3>
+        <p>Conservative math. Most operators beat it.</p>
+        <div class="field">
+          <div class="field__row"><label for="trips">Trips per month, in season</label><output id="tripsOut" for="trips">18</output></div>
+          <input type="range" id="trips" min="4" max="120" step="1" value="18">
+        </div>
+        <div class="field">
+          <div class="field__row"><label for="price">Average trip price</label><output id="priceOut" for="price">$750</output></div>
+          <input type="range" id="price" min="200" max="3000" step="25" value="750">
+        </div>
+        <div class="field">
+          <div class="field__row"><label for="months">Months in season</label><output id="monthsOut" for="months">7</output></div>
+          <input type="range" id="months" min="2" max="12" step="1" value="7">
+        </div>
+      </div>
+      <div class="calc__out">
+        <div class="calc__big"><span>Estimated added revenue per season</span><b id="calcTotal">$10,000</b></div>
+        <div class="calc__rows">
+          <div><span>Rebooked trips <span class="mute" id="calcRebookN">(8)</span></span><b id="calcRebook">$0</b></div>
+          <div><span>Referral bookings <span class="mute" id="calcRefN">(4)</span></span><b id="calcRef">$0</b></div>
+          <div><span>Open dates filled <span class="mute" id="calcOpenN">(2)</span></span><b id="calcOpen">$0</b></div>
+          <div><span>Tightline, for the whole year <span class="mute" id="calcPlan"></span></span><b id="calcCost">−$0</b></div>
+          <div class="tot"><span>Net</span><b id="calcNet">$0</b></div>
+        </div>
+        <p class="calc__note">Assumes 6% of trips rebook because they were asked, 3% arrive by referral, and one in three cancellations is refilled at a 5% cancellation rate. Reviews aren't counted — they're the part that compounds.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SETUP ============ -->
+<section class="section setup theme-dark" id="setup">
+  <div class="container">
+    <div class="head">
+      <p class="eyebrow rv"><span class="idx">07</span> Setup</p>
+      <h2 class="rv" style="--d:.06s">Live before your next trip. <span class="serif">About twelve minutes.</span></h2>
+    </div>
+    <ol class="steps">
+      <li class="rv"><span class="steps__time">3 min</span><span class="steps__n">01</span><h3>Connect your calendar.</h3><p>FareHarbor, FishingBooker, Xola, Peek, Bookeo, Checkfront, Guidesly, Rezdy, or Google Calendar. No software? Forward confirmation emails, or text trips in.</p></li>
+      <li class="rv" style="--d:.08s"><span class="steps__time">2 min</span><span class="steps__n">02</span><h3>Pick where reviews go.</h3><p>Paste your Google and TripAdvisor links. Tightline finds your FishingBooker and Facebook pages on its own.</p></li>
+      <li class="rv" style="--d:.16s"><span class="steps__time">2 min</span><span class="steps__n">03</span><h3>Pick your voice.</h3><p>Straight, friendly, or salty. Every message reads like you wrote it, with your name at the bottom. Edit any of them.</p></li>
+      <li class="rv" style="--d:.24s"><span class="steps__time">2 weeks</span><span class="steps__n">04</span><h3>Review mode.</h3><p>For the first two weeks every message comes to you first. Thumbs-up to send. Turn it off when you trust it, or leave it on forever.</p></li>
+    </ol>
+
+    <div class="voice">
+      <div class="rv">
+        <p class="eyebrow">Your voice</p>
+        <h3>It should sound like you, <span class="serif">not like software.</span></h3>
+        <p>Pick a starting point and Tightline writes every message in that register — the review ask, the nudges, the open-date offers. Swap words, add your sign-off, save. Guests reply to a person.</p>
+        <div class="seg" role="group" aria-label="Choose a voice">
+          <button type="button" data-voice="straight" aria-pressed="true">Straight</button>
+          <button type="button" data-voice="friendly" aria-pressed="false">Friendly</button>
+          <button type="button" data-voice="salty" aria-pressed="false">Salty</button>
+        </div>
+      </div>
+      <div class="voice__preview rv" style="--d:.1s" aria-live="polite">
+        <div class="voice__from"><div class="avatar">DR</div>Capt. Dana · review ask · T+2 hours</div>
+        <div class="msg msg--in" id="voiceMsg">Mike — thanks for coming out today. If you've got 30 seconds, a Google review makes a real difference for a one-boat operation: g.page/reel-therapy/review. Anything off, text me here. — Dana</div>
+      </div>
+    </div>
+
+    <div class="nots">
+      <div class="rv">
+        <p class="eyebrow">What we don't do</p>
+        <h3>The short list of things that would get you in trouble.</h3>
+      </div>
+      <ul class="rv" style="--d:.1s">
+        <li>Buy, gate, or pay for reviews<small>Every guest gets asked. That's Google's rule and ours.</small></li>
+        <li>Charge per text<small>Flat monthly price. Send as many as your trips generate.</small></li>
+        <li>Text people who didn't opt in<small>Consent is captured at booking. We give you the exact language.</small></li>
+        <li>Message at the wrong hours<small>Nothing before 8am or after 9pm in the guest's time zone.</small></li>
+        <li>Lock up your guest list<small>Export everything to a spreadsheet, anytime, in one text.</small></li>
+        <li>Make you log in<small>The recap comes to you. The dashboard is there if you want it.</small></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq" id="faq">
+  <div class="container faq__grid">
+    <div class="head">
+      <p class="eyebrow rv"><span class="idx">08</span> Questions</p>
+      <h2 class="rv" style="--d:.06s">The things captains ask <span class="serif">before they say yes.</span></h2>
+      <p class="lede rv" style="--d:.12s">Something else? Text (843) 555-0142. A person answers, usually within the hour, unless we're on the water.</p>
+    </div>
+    <div class="faq__list rv">
+      <details class="faq__item">
+        <summary>My guests are older and not big texters. Will this work?<i></i></summary>
+        <div class="faq__body"><p>Most of your guests already text you to confirm the meet-up time and ask what to bring. That's the channel Tightline uses. Texts get opened; emails from a charter mostly don't.</p><p>Guests who booked with only an email get the same sequence by email. Anyone can reply <code>STOP</code> once and never hear from us again.</p></div>
+      </details>
+      <details class="faq__item">
+        <summary>I don't use booking software. I run off a paper calendar and my phone.<i></i></summary>
+        <div class="faq__body"><p>That's a lot of operators. Two options: forward your confirmation emails (from FishingBooker, PayPal, Venmo, whatever) to your Tightline address, or text the trip in: <code>sat 6am mike adams 555-0134 party of 4</code>. Tightline builds the trip from that and asks if anything's missing.</p></div>
+      </details>
+      <details class="faq__item">
+        <summary>Is texting my customers like this legal?<i></i></summary>
+        <div class="faq__body"><p>Yes, done properly, and we do it properly. Consent is captured at booking — we give you the exact checkbox language for your booking page or waiver. Every message carries a one-word opt-out. Nothing goes out before 8am or after 9pm in the guest's time zone. Messages send from a registered local number in your business's name.</p><p>We also don't gate or pay for reviews, which is what actually gets listings suspended.</p></div>
+      </details>
+      <details class="faq__item">
+        <summary>Does this work for hunting outfitters with draws, tags, and multi-day camps?<i></i></summary>
+        <div class="faq__body"><p>Yes. Set your season windows and application deadlines once. Tightline nudges last year's hunters before draw deadlines and before opener, handles multi-day trips as a single event, and knows the difference between a booker and the four guys who came with him.</p></div>
+      </details>
+      <details class="faq__item">
+        <summary>The booker is one person. What about the rest of the party?<i></i></summary>
+        <div class="faq__body"><p>The photo gallery is how we meet them. Everyone on the boat wants the photos, and they leave a number to see them. From then on they're your guests — they get the review ask, the referral link, and next season's nudge, with their own consent recorded.</p></div>
+      </details>
+      <details class="faq__item">
+        <summary>Can I approve messages before they go out?<i></i></summary>
+        <div class="faq__body"><p>Yes. Review mode is on for the first two weeks by default: every message comes to your phone first and a thumbs-up sends it. Turn it off when you trust it, leave it on forever, or use it only for the rebooking nudges. Your call.</p></div>
+      </details>
+      <details class="faq__item">
+        <summary>Will guests know it's automated?<i></i></summary>
+        <div class="faq__body"><p>Messages come from your name and a local number, in the voice you picked, with your sign-off. When a guest replies, it goes straight to your phone and you answer like you always would. Guests experience a captain who follows up on time. That's all it is.</p></div>
+      </details>
+      <details class="faq__item">
+        <summary>What happens in the off-season?<i></i></summary>
+        <div class="faq__body"><p>After 30 days without a trip, Tightline offers to dock itself at $19 a month. Season nudges and referral links keep working, because the off-season is exactly when next season gets booked. Trip messaging comes back automatically the day you book one.</p></div>
+      </details>
+      <details class="faq__item">
+        <summary>How do I cancel, and what happens to my guest list?<i></i></summary>
+        <div class="faq__body"><p>Text <code>cancel</code>. You get a spreadsheet of every guest, number, trip, and consent record within the hour, and billing stops. The list was always yours.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="cta theme-dark">
+  <canvas class="contours" id="ctaContours" aria-hidden="true"></canvas>
+  <div class="container">
+    <h2 class="display rv">Your next trip ends at <span class="t" id="ctaTime">3:00</span>. <span class="serif">Tightline starts at <span class="t" id="ctaPlus">3:01</span>.</span></h2>
+    <p class="cta__sub rv" style="--d:.1s">Sixty days free, no card. If it hasn't earned you a review, a referral, or a rebooked trip by then, <b>we refund every dollar.</b></p>
+    <div class="cta__btns rv" style="--d:.2s">
+      <a class="btn btn--blaze btn--lg" href="#" data-open="signup">Start free for 60 days</a>
+      <a class="btn btn--ghost btn--lg" href="#" aria-disabled="true">Text a human · (843) 555-0142</a>
+    </div>
+    <p class="fine cta__fine rv" style="--d:.3s">Setup takes about twelve minutes. Most captains do it from the truck.</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer theme-dark">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#top" class="brand" aria-label="Tightline — home">
+          <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+            <rect width="32" height="32" rx="9" fill="currentColor"/>
+            <path d="M16 13.5v12.5" stroke="#0B1917" stroke-width="2.6" stroke-linecap="round"/>
+            <circle cx="16" cy="8.6" r="3.6" fill="#F4581C"/>
+          </svg>
+          <span class="brand__word">Tightline</span>
+        </a>
+        <p>Follow-up automation for fishing charters, hunting guides, and outfitters. The trip ends at the dock. The relationship doesn't have to.</p>
+        <div class="footer__sms">Text <b>START</b> to <b>(843) 555-0142</b> to set up by phone</div>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul><li><a href="#how">How it works</a></li><li><a href="#features">What it does</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#setup">Setup</a></li><li><a href="#">Integrations</a></li><li><a href="#">Changelog</a></li></ul>
+      </div>
+      <div>
+        <h4>Built for</h4>
+        <ul><li><a href="#">Fishing charters</a></li><li><a href="#">Fly fishing guides</a></li><li><a href="#">Hunting outfitters</a></li><li><a href="#">Waterfowl guides</a></li><li><a href="#">Rafting &amp; paddling</a></li><li><a href="#">Lodges</a></li></ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul><li><a href="#">About</a></li><li><a href="#">Field notes</a></li><li><a href="#">Careers</a></li><li><a href="#">Press</a></li><li><a href="#">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li><li><a href="#">SMS policy</a></li><li><a href="#">Consent language</a></li><li><a href="#">Data export</a></li></ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Tightline Software, Inc. · Charleston, SC</span>
+      <span>Msg &amp; data rates may apply · Reply STOP to opt out · HELP for help</span>
+      <span class="tl">Tight lines.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ SIGNUP MODAL (onboarding preview) ============ -->
+<div class="modal" id="signup" role="dialog" aria-modal="true" aria-labelledby="mTitle" aria-hidden="true">
+  <div class="modal__bg" data-close></div>
+  <div class="modal__panel">
+    <button class="modal__close" data-close aria-label="Close">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="modal__head">
+      <div class="modal__prog" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+      <p class="eyebrow" id="mStepLbl">Step 1 of 4 · Your outfit</p>
+      <h3 id="mTitle">Let's get you live before the next trip.</h3>
+    </div>
+    <div class="modal__body">
+      <form id="mForm" novalidate>
+        <div class="mstep on" data-mstep="0">
+          <p class="mute">Three questions now. The rest happens by text, from the truck if you like.</p>
+          <div class="inp"><label for="fOutfit">Outfit name</label><input id="fOutfit" type="text" placeholder="Reel Therapy Charters" autocomplete="organization"></div>
+          <div class="inp"><label for="fName">Your name, as guests know it</label><input id="fName" type="text" placeholder="Capt. Dana" autocomplete="name"></div>
+          <div class="inp"><label for="fPhone">Your mobile</label><input id="fPhone" type="tel" placeholder="(305) 555-0142" autocomplete="tel"><small>Your Sunday recap and any guest replies land here.</small></div>
+        </div>
+        <div class="mstep" data-mstep="1">
+          <p class="mute">Tightline watches it for completed trips and starts the clock. Switch later by text.</p>
+          <div class="picks" role="group" aria-label="Booking software">
+            <button type="button" aria-pressed="true">FareHarbor</button>
+            <button type="button" aria-pressed="false">FishingBooker</button>
+            <button type="button" aria-pressed="false">Xola</button>
+            <button type="button" aria-pressed="false">Peek Pro</button>
+            <button type="button" aria-pressed="false">Bookeo</button>
+            <button type="button" aria-pressed="false">Checkfront</button>
+            <button type="button" aria-pressed="false">Guidesly</button>
+            <button type="button" aria-pressed="false">Rezdy</button>
+            <button type="button" aria-pressed="false">Google Cal</button>
+            <button type="button" class="alt" aria-pressed="false">No software — I'll text trips in or forward emails</button>
+          </div>
+        </div>
+        <div class="mstep" data-mstep="2">
+          <p class="mute">Where should reviews go? Pick more than one and Tightline balances them.</p>
+          <div class="dests">
+            <label><input type="checkbox" checked><span><strong>Google Business Profile</strong><small>Where "charter near me" gets decided</small></span></label>
+            <label><input type="checkbox" checked><span><strong>TripAdvisor</strong><small>Out-of-town guests look here</small></span></label>
+            <label><input type="checkbox"><span><strong>FishingBooker</strong><small>If you list there, ranking depends on it</small></span></label>
+            <label><input type="checkbox"><span><strong>Facebook</strong><small>Good for local word of mouth</small></span></label>
+          </div>
+        </div>
+        <div class="mstep" data-mstep="3">
+          <p class="mute">Last one. Pick a starting point. Every message reads in this register, and you can edit any of them.</p>
+          <div class="seg" role="group" aria-label="Choose a voice">
+            <button type="button" data-voice="straight" aria-pressed="true">Straight</button>
+            <button type="button" data-voice="friendly" aria-pressed="false">Friendly</button>
+            <button type="button" data-voice="salty" aria-pressed="false">Salty</button>
+          </div>
+          <div class="voice__preview" aria-live="polite">
+            <div class="voice__from"><div class="avatar">DR</div>Preview · review ask</div>
+            <div class="msg msg--in" id="mVoiceMsg">Mike — thanks for coming out today. If you've got 30 seconds, a Google review makes a real difference for a one-boat operation: g.page/reel-therapy/review. Anything off, text me here. — Dana</div>
+          </div>
+        </div>
+        <div class="mstep" data-mstep="4">
+          <div class="done">
+            <div class="done__mark"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg></div>
+            <h3>You're set. Review mode is on.</h3>
+            <p>Check your phone. For the next two weeks every message comes to you first — thumbs-up sends it. Your 60 days start with your first trip, not today.</p>
+            <div class="recap__bubble">
+              <span class="msg--chip">Tightline · just now</span>
+              Welcome aboard, Dana. I'm watching your FareHarbor calendar. Text me photos during trips and I'll handle the rest. Reply <b>HELP</b> anytime, or <b>DEMO</b> to see a full sequence on your own phone.
+            </div>
+          </div>
+        </div>
+        <div class="modal__foot" id="mFoot">
+          <button type="button" class="btn btn--ghost" id="mBack" hidden>Back</button>
+          <span class="fine" id="mFine">No card required</span>
+          <button type="button" class="btn btn--blaze" id="mNext">Continue
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
